@@ -16,12 +16,14 @@
 	"description": "Linear, SMA, EMA and MACD trendlines.",
 	"keywords": [
 		"trendline",
-		"tecnical indicators"
+		"SMA",
+		"EMA",
+		"linear",
+		"MACD",
+		"Moving Average"
 	],
-	"homepage": "",	
 	"docs": "",	
 	"bugs": "",
-	"download": "",
 	"demo": [
 		"",
 		""
