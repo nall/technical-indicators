@@ -1,0 +1,29 @@
+{
+	"name": "technical-indicators",
+	"version": "1.0.1",
+	"title": "Technical Indicators",
+	"author": {
+		"name": "Olaf Berge"
+	},
+	"licenses": [
+		{
+			"type": "MIT"
+		}
+	],
+	"dependencies": {
+		"highcharts": ">=3.0.0"
+	},
+	"description": "Linear, SMA, EMA and MACD trendlines.",
+	"keywords": [
+		"trendline",
+		"tecnical indicators"
+	],
+	"homepage": "",	
+	"docs": "",	
+	"bugs": "",
+	"download": "",
+	"demo": [
+		"",
+		""
+	]	
+}
