@@ -23,8 +23,7 @@
 		"MACD",
 		"Moving Average"
 	],
-	"docs": "",	
-	"bugs": "",
+	"docs": "https://github.com/laff/technical-indicators/blob/master/README.md",
 	"demo": [
 		"http://jsfiddle.net/laff/yDLU9/",
 		"http://jsfiddle.net/laff/W9jw8/",
