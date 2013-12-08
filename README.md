@@ -10,14 +10,5 @@ This plugin is published under the MIT license, and the license document is incl
 
 ### Options
 
-* linear
-- more..
-
-* SMA
--more..
-
-* EMA
-- more..
-
-* MACD
-- more..
+** linear
+* more..
