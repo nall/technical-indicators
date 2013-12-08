@@ -9,14 +9,20 @@ This plugin is published under the MIT license, and the license document is incl
 * Add the script tag pointing to "https://rawgithub.com/laff/technical-indicators/master/technical-indicators.src.js".
 * `id:`
 Give your original dataset an id.
+* `type:`
+This is the series type needed to load the functionality. Either `trendline` or `histogram`.
 * `linkedTo:`
-Link each of the technical indicators you wish to add, to the original dataset.
+Link each of the technical indicators (series) you wish to add, to the original dataset.
 * `algorithm:`
 Choose algorithm / name of the technical indicator you wish to use.
 
 
-### Options
-* Linear:
-* SMA: 
-* EMA: 
-* MACD: 
+### Algorithms
+* `linear` 
+Demo here: http://jsfiddle.net/laff/yDLU9/
+* `SMA`
+Default `periods` is 100. Demo here: http://jsfiddle.net/laff/W9jw8/
+* `EMA`
+Default `periods` is 100. Demo here: http://jsfiddle.net/laff/7VzLF/
+* `MACD`
+The `periods` are set at 12, 26 and 9. `algorithm: 'signalLine'` and `algorithm: 'MACD'` are `type: 'trendline'`. The Histogram has its algorithm loaded by default when choosing `type: 'histogram'`. Demo here: http://jsfiddle.net/laff/X4u3H/
