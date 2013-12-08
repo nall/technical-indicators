@@ -7,11 +7,11 @@ This plugin is published under the MIT license, and the license document is incl
 
 ### Installation
 * Add the script tag pointing to "https://rawgithub.com/laff/technical-indicators/master/technical-indicators.src.js".
-* 'id:'
+* `id:`
 Give your original dataset an id.
-* 'linkedTo:'
+* `linkedTo:`
 Link each of the technical indicators you wish to add, to the original dataset.
-* 'algorithm:'
+* `algorithm:`
 Choose algorithm / name of the technical indicator you wish to use.
 
 
