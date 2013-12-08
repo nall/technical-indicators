@@ -14,7 +14,7 @@ This is the series type needed to load the functionality. Either `trendline` or 
 * `linkedTo:`
 Link each of the technical indicators (series) you wish to add, to the original dataset.
 * `algorithm:`
-Choose algorithm / name of the technical indicator you wish to use.
+Choose algorithm / name of the technical indicator you wish to use. `linear` is default.
 
 
 ### Algorithms

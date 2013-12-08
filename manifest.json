@@ -29,5 +29,11 @@
 		"http://jsfiddle.net/laff/W9jw8/",
 		"http://jsfiddle.net/laff/7VzLF/",
 		"http://jsfiddle.net/laff/X4u3H/"
+	],
+	"maintainers": [
+		{
+			"name": "Olaf Berge",
+			"email": "ohlaughbrg@gmail.com"
+		}
 	]	
 }
