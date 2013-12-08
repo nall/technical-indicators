@@ -9,3 +9,15 @@ This plugin is published under the MIT license, and the license document is incl
 * add the scripttag
 
 ### Options
+
+* linear
+- more..
+
+* SMA
+-more..
+
+* EMA
+- more..
+
+* MACD
+- more..
