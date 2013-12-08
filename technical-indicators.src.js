@@ -267,7 +267,7 @@
 		step8 = (step6 * step5a);
 		step9 = ((step7 - step8) / step1);
 
-		// Step 10: Plotting the trendline. Only two points are needed.
+		// Step 10: Plotting the trendline. Only two points are calulated.
 		// The starting point.
 		// This point will have values equal to the first X and Y value in the original dataset.
 		lineData.push([xData[0] , yData[0]]);

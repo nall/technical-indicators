@@ -7,7 +7,8 @@
 	},
 	"licenses": [
 		{
-			"type": "MIT"
+			"type": "MIT",
+			"url": "https://github.com/laff/technical-indicators/blob/master/LICENSE"
 		}
 	],
 	"dependencies": {
@@ -25,7 +26,9 @@
 	"docs": "",	
 	"bugs": "",
 	"demo": [
-		"",
-		""
+		"http://jsfiddle.net/laff/yDLU9/",
+		"http://jsfiddle.net/laff/W9jw8/",
+		"http://jsfiddle.net/laff/7VzLF/",
+		"http://jsfiddle.net/laff/X4u3H/"
 	]	
 }

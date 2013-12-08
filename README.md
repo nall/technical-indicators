@@ -6,7 +6,14 @@ The contents of the plugin is located in the javascript file "technical-indicato
 This plugin is published under the MIT license, and the license document is including in the repository.
 
 ### Installation
-* add the scripttag
+* Add the script tag pointing to "https://rawgithub.com/laff/technical-indicators/master/technical-indicators.src.js".
+* 'id:'
+Give your original dataset an id.
+* 'linkedTo:'
+Link each of the technical indicators you wish to add, to the original dataset.
+* 'algorithm:'
+Choose algorithm / name of the technical indicator you wish to use.
+
 
 ### Options
 * Linear:
