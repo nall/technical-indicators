@@ -1,9 +1,10 @@
 {
 	"name": "technical-indicators",
-	"version": "1.0.1",
+	"version": "1.0.0",
 	"title": "Technical Indicators",
 	"author": {
-		"name": "Olaf Berge"
+		"name": "Olaf Berge",
+		"url": "www.ohlaugh.com"
 	},
 	"licenses": [
 		{
