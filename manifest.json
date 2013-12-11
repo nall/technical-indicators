@@ -1,6 +1,6 @@
 {
 	"name": "technical-indicators",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"title": "Technical Indicators",
 	"author": {
 		"name": "Olaf Berge",
@@ -29,7 +29,7 @@
 		"http://jsfiddle.net/laff/etW3K/",
 		"http://jsfiddle.net/laff/WaEBc/",
 		"http://jsfiddle.net/laff/U6HMA/",
-		"http://jsfiddle.net/laff/X4u3H/"
+		"http://jsfiddle.net/laff/SRfW6/"
 	],
 	"maintainers": [
 		{

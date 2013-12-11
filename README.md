@@ -25,4 +25,4 @@ Default `periods` is 100. Demo here: http://jsfiddle.net/laff/WaEBc/
 * `EMA`:
 Default `periods` is 100. Demo here: http://jsfiddle.net/laff/U6HMA/
 * 'MACD':
-The `periods` are set at 12, 26 and 9. `algorithm: 'signalLine'` and `algorithm: 'MACD'` are `type: 'trendline'`. The Histogram has its algorithm loaded by default when choosing `type: 'histogram'`. Demo here: http://jsfiddle.net/laff/X4u3H/
+The `periods` are set at 12, 26 and 9. `algorithm: 'signalLine'` and `algorithm: 'MACD'` are `type: 'trendline'`. The Histogram has its algorithm loaded by default when choosing `type: 'histogram'`. Demo here: http://jsfiddle.net/laff/SRfW6/
