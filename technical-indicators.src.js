@@ -180,18 +180,8 @@
 
 		// Set the Y and X data of the MACD. This is used in calculating the signal line.
 		for (var i = 0; i < MACD.length; i++) {
-
-			if (MACD[i][1] == null) {
-
-				xMACD.push(null);
-				yMACD.push(null);
-
-			} else {
-
-				xMACD.push(MACD[i][0]);
-				yMACD.push(MACD[i][1]);
-
-			}
+			xMACD.push(MACD[i][0]);
+			yMACD.push(MACD[i][1]);
 		}
 
 		// Setting the signalline (Signal Line: X-day EMA of MACD line).
