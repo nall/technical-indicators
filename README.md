@@ -6,7 +6,7 @@ The contents of the plugin is located in the javascript file "technical-indicato
 This plugin is published under the MIT license, and the license document is including in the repository.
 
 ### Installation
-* Add the script tag pointing to "https://rawgithub.com/laff/technical-indicators/master/technical-indicators.src.js".
+* Add the script tag pointing to "https://rawgit.com/laff/technical-indicators/master/technical-indicators.src.js".
 * `id:`
 Give your original dataset an id.
 * `type:`
