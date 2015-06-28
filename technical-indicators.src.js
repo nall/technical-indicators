@@ -144,15 +144,14 @@
 	 *
 	 * @param yData : array of y variables.
 	 * @param xData : array of x variables.
-	 * @param periods : The amount of "days" to average from.
+	 * @param shortPeriod : The number of periods to use for the short EMA (default 12)
+	 * @param longPeriod : The number of periods to use for the long EMA (default 9)
+	 * @param signalPeriod : The number of periods to use for the signal line EMA
 	 * @return : An array with 3 arrays. (0 : macd, 1 : signalline , 2 : histogram) 
 	**/
-	function calcMACD (xData, yData, periods) {
+	function calcMACD (xData, yData, shortPeriod, longPeriod, signalPeriod) {
 
 		var chart = this,
-			shortPeriod = 12,
-			longPeriod = 26,
-			signalPeriod = 9,
 			shortEMA,
 			longEMA,
 			MACD = [], 
@@ -161,10 +160,13 @@
 			signalLine = [],
 			histogram = [];
 
+		shortPeriod = shortPeriod || 12;
+		longPeriod = longPeriod || 26;
+		signalPeriod = signalPeriod || 9;
 
 		// Calculating the short and long EMA used when calculating the MACD
-		shortEMA = EMA(xData, yData, 12);
-		longEMA = EMA(xData, yData, 26);
+		shortEMA = EMA(xData, yData, shortPeriod);
+		longEMA = EMA(xData, yData, longPeriod);
 
 		// subtract each Y value from the EMA's and create the new dataset (MACD)
 		for (var i = 0; i < shortEMA.length; i++) {
@@ -339,9 +341,10 @@
 	 * @param yData : array of y variables.
 	 * @param xData : array of x variables.
 	 * @param periods : The amount of "days" to average from.
+	 * @param offset : The amount of "days" to shift to the right (default: 0)
 	 * @return an array containing the SMA.	
 	**/
-	function SMA (xData, yData, periods) {
+	function SMA (xData, yData, periods, offset) {
 		var periodArr = [],
 			smLine = [],
 			length = yData.length,
@@ -365,6 +368,11 @@
 				smLine.push([ xData[i] , null]);
 			}
 		}
+		
+		// Shift by the 'offset'. Add NaN points on the front and remove those from the end
+		smLine.splice(0, offset, NaN);
+		smLine.splice(-offset, offset);
+		
 		return smLine;
 	}
 
